@@ -1,0 +1,139 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+
+#logo {
+	display: block;
+	margin: 0 auto;
+	width: 600px;
+	height: 600px;
+}
+
+.nav {
+	width: 750px;
+	margin: 50px auto ;
+	display: block;
+}
+
+nav li {
+	display: inline;
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 0 20px;
+}
+
+nav a:hover {
+	color: #C78C19;
+	
+}
+
+.box {
+ 	display: flex;
+ 	align-items: flex-start;
+ 	background: #fff;
+ 	width: 960px;
+ 	height: 600px;
+ 	overflow: hidden;
+ 	position: relative;
+ 	margin: 0 auto;
+ 	box-shadow: 10px black;
+ }
+ .box .single-box img {
+ 	position: absolute;
+ 	
+ 	width: 960px;
+ 	background: #000;
+ 	-webkit-backface-visibility: hidden;
+ 	backface-visibility: hidden;
+ 	opacity: 0;
+ 	transform: rotate(15deg);
+ 	-webkit-animation: animate 32s infinite;
+ 	animation: animate 32s infinite;
+ }
+ .box .single-box:nth-child(3) img {
+ 	-webkit-animation-delay: 8s;
+ 	animation-delay: 8s;
+ }
+ .box .single-box:nth-child(2) img {
+ 	-webkit-animation-delay: 16s;
+ 	animation-delay: 16s;
+ }
+ .box .single-box:nth-child(1) img {
+ 	-webkit-animation-delay: 24s;
+ 	animation-delay: 24s;
+ }
+ @keyframes animate {
+ 	25% {
+ 		opacity: 1;
+ 		transform: scale(1) rotate(0);
+ 	}
+ 	40% {
+ 		opacity: 0;
+ 	}
+ }
+
+.release {
+	font-style: italic;
+	width: 940px;
+	margin: 2em auto;
+	text-align: justify;
+	line-height: 2em;
+}
+
+.videos {
+	display: block;
+	margin: 20px auto;
+}
+
+.fotos {
+	display: block;
+	width: 940px;
+	height: auto;
+	margin: 20px auto;
+}
+
+.spotify {
+	display: block;
+	width: 600px;
+	margin:  20px auto;
+}
+
+
+
+#logobranco {
+	display: block;
+	width: 120px;
+	height: auto;
+	margin: 0 auto;
+		
+}
+
+.socialmedialogos{
+	vertical-align: center;
+	display: inline;	
+	height: 30px;
+	width: auto;
+	margin:  5px 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 0px auto 20px;
+}
+
