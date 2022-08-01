@@ -1,4 +1,4 @@
-<h1>Página da banda Grantezuma</h>
+<h1>Página da banda Grantezuma</h1>
 
 >Status em desenvolvimento.
 
