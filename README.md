@@ -1,4 +1,4 @@
-<h1 align="center"> Grantezuma's Web Page </h1>
+<h1 align="center"> Page da banda Grantezuma</h1>
 
 ![Badge em desenvolvimento](https://img.shields.io/badge/Status-In%20Development-blue)
 
