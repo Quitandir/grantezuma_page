@@ -13,8 +13,5 @@ Projeto de criação de uma webpage da banda Grantezuma visando estudo e consoli
 - `Page 3`: Mídia
 - `Page 4`: Novo álbum - Travessia
 
-```
-node app.js
-```
 
 
